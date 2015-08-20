@@ -53,7 +53,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="digital:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Vd9-VQ-JWt"/>
+                                            <action selector="Numbers:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OgZ-X6-KcE"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWK-Q9-Afs">
@@ -77,7 +77,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5Wk-BA-xnf"/>
+                                            <action selector="Equals:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="y9w-bs-RH1"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvu-Lh-7aU">
@@ -89,7 +89,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="digital:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="944-Zt-C77"/>
+                                            <action selector="Numbers:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0OF-fF-ohm"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Muj-uz-Bfu">
@@ -101,7 +101,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="digital:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cel-LU-trh"/>
+                                            <action selector="Numbers:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Q4G-Ul-eii"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="1004" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKO-Zb-oHh">
@@ -113,7 +113,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EAi-iN-bKH"/>
+                                            <action selector="Operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Qf5-J8-0if"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOR-fE-Ccc">
@@ -125,7 +125,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="digital:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sFK-r5-78X"/>
+                                            <action selector="Numbers:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="c3y-NX-bWm"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDM-id-4r9">
@@ -137,7 +137,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="digital:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="buq-nb-J4f"/>
+                                            <action selector="Numbers:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1IA-5t-qT9"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBm-3k-CP4">
@@ -149,7 +149,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="digital:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Wrj-D8-7wN"/>
+                                            <action selector="Numbers:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jLO-xa-V5p"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="1003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHE-Uz-EFk">
@@ -161,7 +161,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vUw-YQ-JGM"/>
+                                            <action selector="Operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7Z7-gQ-9tE"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gjd-CG-HVY">
@@ -173,7 +173,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="digital:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6y5-8W-K8B"/>
+                                            <action selector="Numbers:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sJt-1Y-JOq"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6q-kL-Be5">
@@ -185,7 +185,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="digital:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HSQ-m8-ZMQ"/>
+                                            <action selector="Numbers:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Vsr-ir-EpC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ib0-od-4jB">
@@ -197,7 +197,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="digital:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hVp-QZ-Kx9"/>
+                                            <action selector="Numbers:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="N1d-Xo-X6E"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="1002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9m-Av-YHc">
@@ -209,7 +209,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yf2-B6-f1v"/>
+                                            <action selector="Operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iPu-Xa-pN3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0e-JN-kQf">
@@ -221,7 +221,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="digital:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Tja-Ee-ZIq"/>
+                                            <action selector="Numbers:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bVi-Qf-eZj"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXv-va-RVo">
@@ -232,9 +232,6 @@
                                         <state key="normal" title="±">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
-                                        <connections>
-                                            <action selector="inversion:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aDv-DR-zzR"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrY-ar-fb9">
                                         <rect key="frame" x="0.0" y="1" width="80" height="74"/>
@@ -245,7 +242,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="clear:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="eJN-Ju-DcG"/>
+                                            <action selector="Clear:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qmr-hH-Z6L"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2c0-e3-fba">
@@ -266,7 +263,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="s0Y-Kc-Goc"/>
+                                            <action selector="Operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PfU-G4-qNA"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -281,7 +278,7 @@
                                 <rect key="frame" x="21" y="15" width="288" height="85"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Roboto-Thin" family="Roboto" pointSize="60"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
@@ -296,7 +293,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="480"/>
                     <connections>
-                        <outlet property="result" destination="wVF-4D-CJC" id="xDq-eK-Miz"/>
+                        <outlet property="Display" destination="wVF-4D-CJC" id="OUf-Wa-Idd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
