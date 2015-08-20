@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var firstNumber = 0
     var secondNumber = 0
     var operation = ""
-    
+    var result = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,10 +30,9 @@ class ViewController: UIViewController {
     
     @IBAction func Numbers(sender: UIButton) {
         var number = sender.currentTitle
-        
         if FlagNumber {
             if Display.text != nil && number != nil {
-                /*Display.text = Display.text! + number!*/
+                Display.text = Display.text! + number!
             }
         }
         else {
@@ -43,15 +42,41 @@ class ViewController: UIViewController {
     }
     
     @IBAction func Operations(sender: UIButton) {
+        FlagNumber = false
+        if Display.text!.toInt() != nil {
+            secondNumber = Display.text!.toInt()!
+        }
+        if operation == "+" {
+            result = firstNumber + secondNumber
+        }
+        else if operation == "-"{
+            result = firstNumber - secondNumber
+        }
+        else if operation == "×" {
+            result = firstNumber * secondNumber
+        }
+        else if operation == "÷"{
+            result = firstNumber / secondNumber
+        }
         
+        if operation != 0 {
+            case 1001:
+                fi
+            def
+        }
+        
+        Display.text = "\(result)"
     }
     
-    @IBAction func Equals(sender: UIButton) {
+    @IBAction func Inversion(sender: UIButton) {
         
     }
     
     @IBAction func Clear(sender: UIButton) {
-    
+        FlagNumber = false
+        var firstNumber = 0
+        var secondNumber = 0
+        Display.text = "0"
     }
 }
 

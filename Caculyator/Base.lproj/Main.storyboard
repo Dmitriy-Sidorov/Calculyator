@@ -77,7 +77,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="Equals:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="y9w-bs-RH1"/>
+                                            <action selector="Operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BhP-Am-xRM"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvu-Lh-7aU">
@@ -200,18 +200,6 @@
                                             <action selector="Numbers:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="N1d-Xo-X6E"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" multipleTouchEnabled="YES" tag="1002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9m-Av-YHc">
-                                        <rect key="frame" x="241" y="76" width="79" height="74"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="Roboto-Thin" family="Roboto" pointSize="43"/>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <state key="normal" title="×">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="Operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iPu-Xa-pN3"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0e-JN-kQf">
                                         <rect key="frame" x="0.0" y="76" width="80" height="74"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -232,6 +220,9 @@
                                         <state key="normal" title="±">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="Inversion:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PST-1j-JEx"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrY-ar-fb9">
                                         <rect key="frame" x="0.0" y="1" width="80" height="74"/>
@@ -253,6 +244,9 @@
                                         <state key="normal" title="%">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="Operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FD2-0G-lr3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" multipleTouchEnabled="YES" tag="1001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDB-68-W2d">
                                         <rect key="frame" x="241" y="1" width="79" height="74"/>
@@ -266,6 +260,19 @@
                                             <action selector="Operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PfU-G4-qNA"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" multipleTouchEnabled="YES" tag="1002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9m-Av-YHc">
+                                        <rect key="frame" x="241" y="76" width="79" height="74"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Thin" family="Roboto" pointSize="43"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <inset key="contentEdgeInsets" minX="0.0" minY="-14" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="×">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Operations:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iPu-Xa-pN3"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.73254570835515087" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -274,11 +281,9 @@
                                 <rect key="frame" x="2" y="108" width="318" height="372"/>
                                 <color key="backgroundColor" red="0.86679292929292928" green="0.087547727193481778" blue="0.17587039462351065" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="none" minimumFontSize="30" preferredMaxLayoutWidth="640" translatesAutoresizingMaskIntoConstraints="NO" id="wVF-4D-CJC">
-                                <rect key="frame" x="21" y="15" width="288" height="85"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="clip" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="wVF-4D-CJC">
+                                <rect key="frame" x="15" y="15" width="290" height="85"/>
                                 <fontDescription key="fontDescription" name="Roboto-Thin" family="Roboto" pointSize="60"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
