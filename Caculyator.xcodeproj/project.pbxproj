@@ -13,6 +13,8 @@
 		2C5DCC241B77BF70003ECEF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5DCC231B77BF70003ECEF8 /* Images.xcassets */; };
 		2C5DCC271B77BF70003ECEF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C5DCC251B77BF70003ECEF8 /* LaunchScreen.xib */; };
 		2C5DCC331B77BF70003ECEF8 /* CaculyatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5DCC321B77BF70003ECEF8 /* CaculyatorTests.swift */; };
+		2CCB20741B810B0400511F22 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CCB20731B810B0400511F22 /* Roboto-Thin.ttf */; };
+		2CCB20751B810B0400511F22 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CCB20731B810B0400511F22 /* Roboto-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		2C5DCC2C1B77BF70003ECEF8 /* CaculyatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaculyatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5DCC311B77BF70003ECEF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C5DCC321B77BF70003ECEF8 /* CaculyatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculyatorTests.swift; sourceTree = "<group>"; };
+		2CCB20731B810B0400511F22 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,7 @@
 		2C5DCC1A1B77BF6F003ECEF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2CCB20731B810B0400511F22 /* Roboto-Thin.ttf */,
 				2C5DCC1B1B77BF6F003ECEF8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCB20741B810B0400511F22 /* Roboto-Thin.ttf in Resources */,
 				2C5DCC221B77BF70003ECEF8 /* Main.storyboard in Resources */,
 				2C5DCC271B77BF70003ECEF8 /* LaunchScreen.xib in Resources */,
 				2C5DCC241B77BF70003ECEF8 /* Images.xcassets in Resources */,
@@ -202,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCB20751B810B0400511F22 /* Roboto-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +415,7 @@
 				2C5DCC381B77BF70003ECEF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C5DCC391B77BF70003ECEF8 /* Build configuration list for PBXNativeTarget "CaculyatorTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +424,7 @@
 				2C5DCC3B1B77BF70003ECEF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
